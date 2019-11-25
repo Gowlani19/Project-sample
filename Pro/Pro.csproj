@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Binary.cs" />
+    <Compile Include="Binary.Add.cs" />
+    <Compile Include="Binary.Mul.cs" />
     <Compile Include="Bits.cs" />
+    <Compile Include="Hexa.cs" />
+    <Compile Include="Number.cs" />
+    <Compile Include="NumberType.cs" />
+    <Compile Include="Octal.cs" />
     <Compile Include="Operations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

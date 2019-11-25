@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pro
 {
-    public class Bits : object
+    public class Bits : Number
     {
         public string bits { get; }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pro
 {
-    class Binary : Operations
+    partial class Binary : Operations
     {
         public Bits aBits { get; set; }
 
@@ -99,7 +99,27 @@ namespace Pro
 
         }
 
-        public override Bits sub()
+        public override Bits sub(Bits b)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override Bits div(Bits b)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override Bits and(Bits b)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override Bits or(Bits b)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override Bits xor(Bits b)
         {
             throw new NotImplementedException();
         }
