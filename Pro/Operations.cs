@@ -9,12 +9,12 @@ namespace Pro
     public abstract class  Operations
     {
         public char op { get; set; }
-        public abstract Bits addtion(Bits b);
-        public abstract Bits sub(Bits b);
-        public abstract Bits mul (Bits b);
-        public abstract Bits div(Bits b);
-        public abstract Bits and(Bits b);
-        public abstract Bits or(Bits b);
-        public abstract Bits xor(Bits b);
+        public abstract Number addtion(Number b);
+        public abstract Number sub(Number b);
+        public abstract Number mul (Number b);
+        public abstract Number div(Number b);
+        public abstract Number and(Number b);
+        public abstract Number or(Number b);
+        public abstract Number xor(Number b);
     }
 }
